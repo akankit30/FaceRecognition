@@ -72,4 +72,8 @@ while True:
     if cv.waitKey(20) & 0xFF==ord('d'):
         break
 
+cap.release();
+cv.destroyAllWindows();
+
+
 
